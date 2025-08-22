@@ -9,5 +9,7 @@ connection_string = (
     'Trusted_Connection=yes;'
 )
 
+
+
 def get_connection():
     return pyodbc.connect(connection_string)
