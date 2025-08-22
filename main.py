@@ -48,6 +48,7 @@ def root():
 #Comando para ejecutar:
 # uvicorn main:app --reload
 
+
 """
 El caché es para: El mensaje 
 "304 Not Modified" no es realmente un error 
