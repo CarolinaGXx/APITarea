@@ -10,9 +10,7 @@ connection_string = (
 )
 
  
-
-
-
 #CAROLINA#
+
 def get_connection():
     return pyodbc.connect(connection_string)
